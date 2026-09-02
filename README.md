@@ -57,9 +57,7 @@ freyy
 
 Ao iniciar o FREYY, informe um domínio autorizado para pesquisa.
 
-Exemplo:
-
-Domínio autorizado: exemplo.com
+Exemplo:exemplo.com
 
 Depois escolha uma das opções disponíveis no menu.
 
