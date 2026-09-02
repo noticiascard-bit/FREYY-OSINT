@@ -1,10 +1,10 @@
-👁️ FREYY OSINT
+👁️ FREYY Osint 👁️ 
 
 «Uma ferramenta de OSINT simples e leve para Termux, focada em consultas de informações publicamente indexadas.»
 
 ---
 
-⚡ Sobre
+ Sobre:
 
 FREYY OSINT é uma ferramenta de linha de comando desenvolvida para facilitar pesquisas OSINT através de consultas "site:" em mecanismos de busca.
 
@@ -19,7 +19,7 @@ A ferramenta possui uma interface simples no terminal e permite gerar consultas 
 
 ---
 
-📱 Requisitos
+ Requisitos:
 
 - Android
 - Termux
@@ -29,7 +29,7 @@ A ferramenta possui uma interface simples no terminal e permite gerar consultas 
 
 ---
 
-🚀 Instalação
+ Instalação:
 
 Clone o repositório:
 
@@ -67,7 +67,7 @@ A ferramenta gera a consulta e pode abrir o resultado no navegador.
 
 ---
 
-🧰 Estrutura
+ Estrutura:
 
 FREYY-OSINT/
 │
