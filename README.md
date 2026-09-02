@@ -1,41 +1,56 @@
-👁️ FREYY Osint 👁️ 
+FREYY OSINT
 
-«Uma ferramenta de OSINT simples e leve para Termux, focada em consultas de informações publicamente indexadas.»
+Ferramenta de linha de comando para pesquisas de Open Source Intelligence (OSINT) utilizando informações publicamente indexadas em mecanismos de busca.
 
----
+Sobre
 
- Sobre:
+O FREYY OSINT simplifica a criação de consultas baseadas em operadores "site:" para pesquisas direcionadas em domínios autorizados.
 
-FREYY OSINT é uma ferramenta de linha de comando desenvolvida para facilitar pesquisas OSINT através de consultas "site:" em mecanismos de busca.
+O projeto foi desenvolvido para ambientes de terminal e possui suporte a Termux/Android e Linux.
 
-A ferramenta possui uma interface simples no terminal e permite gerar consultas para:
+Recursos
 
-- 🌐 Pesquisar um domínio
-- 📄 Encontrar PDFs públicos
-- 📑 Localizar documentos públicos
-- 📁 Pesquisar determinados tipos de arquivos públicos
-- 🔗 Consultar URLs indexadas
-- 🔍 Criar consultas personalizadas
+- Pesquisa de domínios
+- Localização de arquivos PDF públicos
+- Localização de documentos públicos
+- Pesquisa por tipos específicos de arquivos
+- Consulta de URLs publicamente indexadas
+- Consultas personalizadas
+- Interface interativa no terminal
 
----
+Plataformas
 
- Requisitos:
+Android / Termux
+
+Requisitos:
 
 - Android
 - Termux
-- Python
+- Bash
+- Python 3
 - "termux-open-url"
 - Conexão com a internet
 
----
+Linux
 
- Instalação:
+Requisitos:
+
+- Linux
+- Bash
+- Python 3
+- "xdg-open"
+- Git
+- Conexão com a internet
+
+O funcionamento depende da disponibilidade das ferramentas necessárias no ambiente utilizado.
+
+Instalação — Termux
 
 Clone o repositório:
 
 git clone https://github.com/noticiascard-bit/FREYY-OSINT.git
 
-Entre na pasta:
+Entre no diretório:
 
 cd FREYY-OSINT
 
@@ -47,72 +62,78 @@ Execute:
 
 ./install.sh
 
-Depois disso, basta executar:
+Após a instalação:
 
 freyy
 
----
+Execução — Linux
 
-🔍 Uso
+Clone o repositório:
 
-Ao iniciar o FREYY, informe um domínio autorizado para pesquisa.
+git clone https://github.com/noticiascard-bit/FREYY-OSINT.git
 
-Exemplo:exemplo.com
+Entre no diretório:
 
-Depois escolha uma das opções disponíveis no menu.
+cd FREYY-OSINT
 
-A ferramenta gera a consulta e pode abrir o resultado no navegador.
+Dê permissão ao script:
 
----
+chmod +x dork.sh
 
- Estrutura:
+Execute:
+
+./dork.sh
+
+Utilização
+
+Ao iniciar o FREYY, informe o domínio autorizado que será utilizado como alvo das consultas.
+
+Exemplo:
+
+Domínio autorizado: exemplo.com
+
+Em seguida, selecione uma das opções disponíveis no menu.
+
+O FREYY gera a consulta correspondente e pode abrir o resultado no navegador padrão do sistema.
+
+Estrutura
 
 FREYY-OSINT/
-│
 ├── dork.sh
 ├── install.sh
 ├── README.md
 └── LICENSE
 
-"dork.sh"
+dork.sh
 
-É o núcleo da ferramenta e contém a interface e a geração das consultas.
+Script principal do FREYY. Responsável pela interface de terminal e pela geração das consultas.
 
-"install.sh"
+install.sh
 
-Instala o "dork.sh" como o comando:
+Instalador destinado ao ambiente Termux. Instala o FREYY como comando "freyy".
 
-freyy
+Uso responsável
 
----
+O FREYY OSINT deve ser utilizado exclusivamente para pesquisas envolvendo informações públicas e dentro dos limites legais aplicáveis.
 
-⚠️ Uso responsável
+Não utilize o projeto para:
 
-O FREYY OSINT deve ser utilizado somente para pesquisas com informações públicas e em sistemas/domínios nos quais você tenha autorização para realizar a pesquisa.
-
-Não utilize a ferramenta para:
-
-- Invadir contas ou sistemas
-- Tentar acessar conteúdo privado
-- Coletar credenciais
-- Burlar autenticação
-- Perseguir ou expor pessoas
+- Acessar contas ou sistemas sem autorização
+- Obter credenciais
+- Contornar mecanismos de autenticação
+- Acessar conteúdo privado
+- Expor ou perseguir indivíduos
 - Realizar atividades ilegais
 
-O objetivo do projeto é aprendizado, pesquisa e OSINT responsável.
+O FREYY não fornece acesso privilegiado a sistemas. Ele apenas auxilia na formulação de consultas para informações publicamente indexadas.
+
+Licença
+
+Consulte o arquivo "LICENSE" para obter os termos de utilização, modificação e distribuição do projeto.
 
 ---
-
-👁️ FREYY
-
-Projeto desenvolvido para uso no Termux.
 
 FREYY OSINT
-Public information research
-Termux
 
----
-
-📜 Licença
-
-Consulte o arquivo "LICENSE" deste repositório para obter informações sobre a licença do projeto.
+Open Source Intelligence Research Tool
+Termux / Linux
